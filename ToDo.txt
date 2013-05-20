@@ -1,0 +1,271 @@
+fix the 'no enemies on reload' bug
+Change treasure distribution -- If you are both in the same room as the monster, reward both players.
+Make it so that monster properties (And probably equipment properties too) all have a secondary dict
+	-The dict is full of 'transform' functions.  Those functions are just instructions on how to transform the rest of the line into data.
+	-Example functions: int, float, or a custom "ToList" function.
+Change the 'cansee' function so that if they are in the same room, they can always see you.
+Make a few different movement modes -- Sin Wave, Charge then stop, constantly walk towards, rotate around, etc.
+Make a way to block.  Make block % a stat, so that shields and weapons and spells can affect it.
+When you click on a guild, it should bring up a list of all abilities taught by that guild and at what levels.
+GODS
+	Need some sort of message log for things like "favour with god lost" or "favour with god gained"
+		maybe have a way to 'subscribe' to a god's messages, so whenever you gain or lose faith from that god, it does a 'damage text effect' to let you know
+	Most of your actions get run through a "faith" check.
+	How much a god likes you is based on your actions.  E.G. killing slimes will piss off the god of nature, but hanging around near flowers might make her happy.
+	Whenever you enter an area containing a shrine, if the god doesn't like you something bad happens.
+	Whenever you stand near a shrine, if the god likes you something good will happen.
+	If you stand near a shrine and they don't like you, something bad happens.
+	These good / bad things only happen once per shrine.
+	Examples:
+		When the god likes you: buffs, healing, gifts of experience, restore mana, resurrection, or even gifts of treasure.
+		When the god hates you: debuffs, damage, spawning a boss monster and locking the doors until it dies, a random teleport to somewhere else, banishment if you die near the shrine.
+Enemies should try to separate from each other when they can directly see you.
+Enemies should drop loot
+WEAPON TYPES
+	Dagger - High speed, low range, medium damage
+	Sword - Good speed, medium range, medium damage
+	Hammer - Low speed, medium range, medium damage, bashing damage, higher stun factor, higher knockback, slows movement speed
+	Spear - Medium speed, good range, medium damage, piercing damage, lower stun factor, higher knockback, slows movement speed
+	Axe - Medium speed, medium range, high damage, slashing damage, higher knockback
+	*Things to implement*
+	Critical chance, critical damage
+	
+ENERGY TYPES
+	Fighter - the rage idea.  Whenever you are hit your rage bar increases.  Whenever you hit with basic attack, your rage bar increases.
+	Mage - Mana.  Recovers over time.
+	Cleric - Favour.  You choose a god to worship based on the shrines.
+					 Each ability is associated with a god and uses favour from that god.
+					 To regain favour, just do things that the god likes. (Examples:  God of death likes it when you kill living things.  God of nature likes it when you stand on grass.)
+					 Each god has two "allies".  some allied abilities can be used by that god for extra cost.
+MORGUE
+	Be able to come across player corpses in the 'field'
+BUILDER
+	Maybe have rooms with just corpses in them (Maybe sometimes they could rise, a-la the hatch skill)
+	Need some 'props'.  Lanterns, couches, corpses, stuff like that.
+	Need some 'search areas' that players can search to find random stuff.  They may find nothing, they may find a trap, they may find a monster, they might find stairs, they might find treasure, etc.
+	Don't always place pieces in the first spot that is available to them.  Pick a random valid spot for them.
+	some rooms should have 'boss' versions of regular monsters that are just bigger than the normal ones and deal more damage and have more HP
+	enemies should drop some treasure as you kill them
+TREASURE / EQUIPMENT
+	keys for some doors / chest, zelda-esque.
+	equipment needs keywords
+	equipment / players / monsters need resistances
+	Consumables
+	Chests need to have definable coin amounts
+	Need a way to select which item's ability you are currently using.
+ENEMIES
+	Debuffs on Attacks (Slime should slow / burn)
+	Have a 'hatching' ability, so that some enemies start in an egg, and hatch as you walk around the room.
+	a 'unique' flag for monsters, so that only one can spawn per room
+	a 'unique per floor' flag, so that only one can spawn per floor
+	After N amount of time since a room was first opened, it should respawn everything inside.
+CONSUMABLE
+	Resurrection potion that costs half the morgue (Djinni in a bottle)
+SKILLS/STATS GRANTED BY GUILDS
+	Attack
+	Defense
+	Spell Casting - Determines the level at which you cast spells.  May have different schools.
+	Searching - Determines what you are liable to find in search areas.
+KEYWORDS
+	Shield - has a keyword% chance to deflect projectiles.
+	Invisible - reduces range at which enemies can see you.
+ABILITIES
+	Explosion shouldn't hit through rooms
+	buffs / debuffs
+	auras
+	Some abilities based on the terrain around you / some that modify the terrain.  I.E. fireball spell that creates a lava tile, or a hydroblast spell that uses up a water tile nearby.
+		- Should raise / lower the heat / water level in that specific room permanantly.
+	Add a 'targetting cursor' around your current target.
+GUILDS
+	Guilds do not accept dabblers.  You can join your first guild at average guild level 0, your second guild at average guild level 10, your third at average guild level 30, etc.
+Possible Enchantments, or maybe just higher tier weapons.
+	- Enchanted Blade.  Whenever you swing, it also sends out two magic missiles that deal damage based on the enchantment level.
+	- Change damage type (Fiery Weapon, Frosty Weapon, energy, etc)
+	- Fine - +X attack.
+	- + % damage
+	- [CreatureType] slayer.  Deals extra damage to creatures of type [CreatureType]
+	- Splitting.  Weapon deals only 75% normal damage, but 
+	- Killer.  Chance for critical hit. (10% @ 2x damage?)
+	- Spellbound.  Whenever you make an attack with it, some % of the time it will use an ability too.
+	- Grappling.  Whenever you hit them with an attack from this weapon, it pulls them towards you instead of knocking them away.
+	- Haste.  + Attack speed
+	- Speed.  + Movement speed
+	- Berserk. + Attack, + Attack speed, - Def
+All of the greyed out things
+Church
+	-Full Heal for some amount of gold
+	-Donation for random buff
+Guilds
+	Abilities should be in a tree along with passive abilities.  Every time you level up you get one 'level point'.  All abilities cap at one point in them.
+	
+	Highest level abilities should enter 'scenic mode' where everything else freezes and just the animation for the spell or ability plays.
+	Piercing projectiles should probably damage large targets twice. (make it so that the 'hit targets' list also has a time limit on each hit target.
+	Maybe make skills more like a tree, as seen in titan quest.
+	Need a way to change the ability set to your 'primary attack' key.
+	Buffs could have some sort of physical appearance.  Example:  +Attack buff could increase your size.
+	-Abilities with no guild associated yet
+		[DamageType] Weapon - Enhances a weapon so it does extra [DamageType] damage.
+		Drain Life - Steal life from the enemy and give it to you
+		Poison - Deal damage over time
+		Plague - Like poison, but contageous
+		Bound weapons / armour - switch your current weapon / armour with one that you got from a spell
+		Feint - You become invisible, and a "fake" version of you keeps moving in the same direction you were moving in before you used it.  Enemies will keep trying to attack the fake, but attacks will go through it.  After a while, the fake vanishes and you become visible.
+		Shield / Block (maybe both.  one as a spell, one as a fighter ability.) - Deflects attacks coming towards you.  Shield could end after a certain # of hits and a certian time.  Block could end after a second or so.
+		Ability to summon equipment.  E.G. 'rock fists', fire sword, earth armour, etc.
+		Magnet Debuff.  Pulls projectiles towards you.
+		Fire and Ice -- Fire and ice explosions are created on a sin wave towards a target.  When they hit the target, he takes high damage, and all nearby units take some DoT and are slowed.
+		*Also Maybe Enemy Ability* - No Name Yet - Remove the caster, who splits into a swarm of firebirds or maybe bats.  Each one flies towards a foe, deals damage, and flits to another foe.  Should create a swarm-like look.  After a certian amount of time, they all congeal at a central point and recreate the caster.
+	-Hunter
+		Multi-shot (shoot 2 targets)
+		Fire arrow (extra damage)
+		Arrow Spray (cone 5 targets)
+		Aimed Shot (Attack homes in on the target)
+	-Fighter
+		ABILITIES
+			Taunt
+			Cleave - 50% splash damage around target.  Basically fireball but uses the slashing animation when it hits.
+			Bull Rush - Charge in a cardinal direction and plow through enemies as you go.
+			'Maximum Spider' - Charge someone.  If the charge hits, then dash through them a bunch of times dealing high total damage.  *uses scenic mode*
+			Stomp - Shockwave travels across the ground until it hits an enemy.  Has longer than normal range, requires "casting", deals weapon ish damage.
+			Upgraded Stomp - Deals splash damage at the target.
+			Crippling strike - Debuffs attack and movement speed
+			Bleeding Strike - Damage over time
+			Rapid strike - Very fast attack at 100% damage.  Moderate cooldown
+			Twin Strike
+			Flurry - Shoot one attack.  If it hits, enter scenic mode, then have the player shift left and right while throwing lots and lots of attacks. *scenic*
+			???? - Projectile stays on top of the target and repeatedly damages them.
+			???? - Shoot 4 (or maybe 8) boomerang projectiles that use a small version of the 'whirlwind' animation.  Each projectile travels in one of the cardinal directions. (NE, NW, etc for 8.)
+			Aimed Strike -- Attack homes in much better than usual.
+		PASSIVE
+			Inventory size + (Multiple versions, each one requires the previous one.)
+			Attack +
+			Defense +
+			Health Growth + (Applies retroactively to levels)
+	-Cleric
+		Has three or four abilities that are dependant upon their god.
+		Heal
+		Photon (Minor light damage)
+		Shadow (Creates an area that is impossible for the player to see into.  Deals a bit of damage every once in a while.)
+		Sanctuary (Creates an area that reflects projectiles.)
+		Resurrect
+		Shield (deflects projectiles)
+	-Seeker
+		Teleportation
+		Bit of fighting
+		Destroy dungeon walls
+	-Thief
+		Disarms shit.
+	-Druid
+	-Mage
+		All mage skills have a regular version and a "+" version (same icon with a + overtop of it).  The + version is always more powerful, but has a longer casting time.
+		ABILITIES
+			Fireball (Classic.)
+			Fire Pillar.  Creates explosions around you in a spiral.  Each explosion does damage.  You are stationary during the whole thing.
+			Mantle of fire (a "debuff" immolation.  Damages all units  near the target (but not the target).  Castable on enemies only.  Damages allies.)
+			Burning Air (Random explosions hit the whole screen repeatedly.  Anything hit by an explosion takes damage.) *scenic*
+			Ice storm (Multiple balls of ice as from ice ball.) *Scenic mode*
+			Missile Prison (missiles appear around the target in a spiral hitting them.) *scenic mode*
+		PASSIVE
+			Quick cast (reduces casting times) (Maybe split this up into the elements) (Multiple levels)
+			Chaos Theory (increases AoE of all spells that have it, but makes those spells hit allies)
+			Fire Damage +
+			Energy Damage +
+			Ice Damage +
+			Casting Shield (gives you a shield whenever you are casting)
+Traps
+  -Make them spawn a percentage of the time
+  -Add secret doors
+  -Make some of the traps be the wall spikes
+	-When a room is flagged as a trap room, put at least one trap in every single dungeon grid tile.  Size should still be varyable. (Optional)
+	-Put traps to sleep
+Equipment
+Enemies
+	Bird
+	Insects
+		Flies
+		Spiders
+	Undead 
+		Zombie
+		Ghost (Chip is working on)
+	Elementals
+		Make them orbs of varying colours
+	Humanoids 
+		Kobold
+		Goblin
+		maybe just regular humans
+	Giants
+	
+Need a way to define 'Bosses' for any given floor.  They should appear somewhere between the 15th room and the 30th room, and only one should appear per floor.
+Some enemies need to turn to face their target, others don't.  Differentiate between them.
+
+********
+--DONE--
+********
+
+Enemies
+	Green Slime
+	Bat
+	Slug
+	Skeleton
+	
+Water needs to extend farther, but it needs to be invisible.  Same with lava.   Source |   50% Heat   |<-Stops being visible "0" heat
+
+Persistant Characters
+Treasure
+Traps
+
+Traps need to go to sleep.
+When you get a new item, the menus aren't notified of it yet.
+Pickle those dungeons!
+Treasure should give items
+Traps shouldn't spawn everywhere
+Two (or more) chest types with different item probabilities
+Stop drawing so much stuff on startup
+Enemy bullets should not move straight towards you.
+Targetted unit should always be in the 'recently hit' list.
+ABILITIES
+	The basic attack should still hit even if you wander out of range.  (It's kind of annoying how it doesn't right now.)
+	This: http://www.escapistmagazine.com/articles/view/columns/extra-punctuation/9015-Extra-Punctuation-A-Hard-Weapon-Is-Good-to-Find.2
+		Basically, give weight to the attacks by having the enemies flinch and get knocked back.
+	need to differentiate between spell damage formula and weapon damage formula
+		While I'm at it, experience.
+	-Fighter
+		Charge - Disable player controls and force-move very quickly towards a target unit for a little while.  If you touch them, they get knocked back and take damage.  You take reduced damage while charging.
+		Power Attack - Very slow attack, requires "casting", deals 200% damage and longer stun
+		Boomerang Blade - Attack moves like a boomerang and pierces enemies.
+	-Mage
+		Icicle blast (Lots of tiny ice particles shoot in a cone in front of the caster.  Each one pierces and does really low damage)
+		Ice ball (Ball of ice forms above casters head, then flies towards the target.  Deals splash damage)
+WEAPON TYPES
+	knockback determined by weapon (or ability -- context sensitive)
+	Stun factor affected by weapon.
+	move speed modified by equipment
+ENEMIES
+	Enemy spawners should be changed to a 'leader' and a group of 'followers'
+	Get rid of the mummy in every room.
+	Need Support for multiple abilities
+	Make enemies have a weighted chance associated with their spawning, rather than the current system. (Or perhaps along with the current system)
+	Fluctate the heat/water levels in a room when checking the enemies that can spawn there, and then do away with the weighted chance of spawning based on heat/water.
+	Spawn enemies like mordor does -- I.E. in 'groups' of a size based on the unit's preferences.  
+	-SORT OF DOING-	- Need a 'stickyness' stat for each unit to figure out the chance of getting a different unit in each 'group' slot.  
+	-NOT DOING-	- Should be 2 group slots per room, with up to something like 15 enemies per slot.
+	Enemies should have a size of room they prefer
+		- Use a 'group budget' type thing.  So a big room has a group budget of 8, and a small one would have one of, say, 3.
+			Each enemy 'group' would take up a specific amount of that budget.  So, 5 insects would have a group size of 2, and 1 dragon would have a group size of 8.
+	- Implementation Idea;  Enemy abilities that are spells should flash the squares they are going to target, and then hit those squares a second or so later.
+	When they charge you, they should charge a random square near you.
+	The square that enemies charge should be based on their range
+	Enemies need to have definable abilities
+		- Those abilities need to have parameters
+TREASURE / EQUIPMENT
+	Bow can be wielded in one hand while sword can be wielded in the other
+BUGS
+	bow does 0 damage
+	triple-attack keeps targetting something after it died.
+	Sometimes, the terrain doesn't interleave itself properly and there winds up being a 'farmland' grid between two different areas.  Most noticeable from the 'cold and kinda dry' to 'very cold and dry' regions.
+BUILDER
+	Make the 'swampy' areas into more of a 'rivery' area
+Damage Types
+When you take damage the screen shakes
+Make the first room have no enemies
+Make the starting room be a special square -- a 'hub' room, if you will.  It should connect to the other rooms.

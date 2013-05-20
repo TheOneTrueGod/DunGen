@@ -1,0 +1,15 @@
+100 Cloth
+100 Shoes
+80 SoftLeather
+80 Boots
+60 HardLeather
+60 LeatherBoots
+50 StuddedLeather
+50 HardLeatherBoots
+80 ChainCloak
+60 IronMantle
+40 IronShirt
+100 Headband
+90 FancyHat
+70 CopperHelm
+50 IronHelm

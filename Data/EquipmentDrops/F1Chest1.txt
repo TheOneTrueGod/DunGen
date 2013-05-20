@@ -1,0 +1,5 @@
+1 G_F1MedGold
+AND
+5 G_F1CommonItems
+10 G_F1UncommonItems
+10 G_F1RareItems

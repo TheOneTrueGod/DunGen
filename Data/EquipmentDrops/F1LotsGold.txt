@@ -1,0 +1,8 @@
+200 G_F1MedGold
+200 G_F1SmallGold
+AND
+250 G_F1MedGold
+200 G_F1SmallGold
+AND
+300 G_F1MedGold
+200 G_F1SmallGold

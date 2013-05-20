@@ -1,0 +1,30 @@
+name,class,dmg at lev,hitsToKill,floor,attack,defense,health,picture,ability,resistances,experience,treasureChance,treasurePackage,keywords,stunResistance,unitType,knockbackResistance,walkSpeed,listenRad,alertedListenRad,preferredRange,activateRange,chargeDist
+Bat,swrm,18,0.3181818182,2,190,180,7,Bat,PROJECTILE -pic BatShot -cooldown 50 -speed 2 -damageType 2,0_-0.3_0.3_-0.4_0_-0.3_0_-0.3_0.8_-0.3,20,0.3,F1SwarmEnemy,WaterWalking:1,0,1,0,4,90,200,190,230,80
+Skeleton,Esy,20,1,2,200,200,20,Skeleton,PROJECTILE -pic SkeletonShot -cooldown 40 -speed 3 -damageType 8,0_0.3_0.6_-0.6_0.1_-0.5_0.4_-1_0.6_1,50,0.5,F1EasyEnemy,-:0,0,3,0,2,90,200,190,230,80
+Mummy,Hrd,20,3,2,200,200,60,Mummy,MULTISHOT -pic SkeletonShot -cooldown 30 -speed 3 -damageType 8_DARKHOLE -pic DarkEffect -cooldown 80 -damage 2 -isSpell True_SPINNER -pic SkeletonShot -cooldown 201 -numShots 5 -damageType 8,0_0.2_0.4_-0.2_0.1_-0.8_-0.2_-1_0.8_1,100,0.5,F1HardEnemy,-:0,0.2,3,0.2,1,90,200,190,230,80
+Slug,Med,24,1,2,220,200,20,Slug,PROJECTILE -pic SlugShot -cooldown 100 -speed 1 -damageType 3,0_-0.1_0.1_0.5_0_-0.2_0.3_-0.2_0.2_0.7,70,0.7,F1MedEnemy,WaterWalking:0.3,0.2,1,0.2,2,90,200,190,230,80
+RedSlime,Esy,16,0.2941176471,2,180,230,5,RedSlime,PROJECTILE -pic RedSlimeShot -cooldown 80 -speed 2 -damageType 5_MULTISHOT -pic RedSlimeShot -cooldown 400 -speed 1 -damageType 5 -shots 6,0_0.7_0.8_0.4_-0.5_0.9_-1_-0.2_-0.3_-0.2,40,0.5,F1EasyEnemy,WaterWalking:0.8,0,2,0,2,90,200,190,230,80
+BlueSlime,Esy,16,0.2941176471,2,180,230,5,BlueSlime,PROJECTILE -pic BlueSlimeShot -cooldown 80 -speed 2 -damageType 6_MULTISHOT -pic BlueSlimeShot -cooldown 400 -speed 1 -damageType 6 -shots 6,0_0.7_0.8_0.4_-0.5_-1_0.9_-0.2_-0.3_-0.2,40,0.5,F1EasyEnemy,WaterWalking:0.8,0,2,0,2,90,200,190,230,80
+GreenSlime,Esy,16,0.2941176471,2,180,230,5,GreenSlime,PROJECTILE -pic GreenSlimeShot -cooldown 80 -speed 2 -damageType 9_MULTISHOT -pic GreenSlimeShot -cooldown 400 -speed 1 -damageType 9 -shots 6,0_0.7_0.8_0.4_-0.5_-0.2_-0.2_-0.2_-0.3_-0.2,40,0.5,F1EasyEnemy,WaterWalking:0.8,0,2,0,2,90,200,190,230,80
+Orc,Esy,16,0.9090909091,2,180,180,20,Orc,PROJECTILE -pic Slash -cooldown 70 -speed 3 -damage 1 -range 55 -damageType 1,0_-0.2_-0.2_0.1_0_-0.1_-0.1_0_0_-0.2,50,0.5,F1EasyEnemy,-:0,0,4,0,2.5,90,200,190,230,45
+OrcArmour,Med,16,1.3333333333,2,180,250,20,OrcArmour,PROJECTILE -pic Slash -cooldown 80 -speed 3 -damage 2 -range 50 -damageType 1,0_0_0.3_-0.2_0_-0.1_-0.1_0_0_-0.2,70,0.7,F1MedEnemy,-:0,0,4,0,1.5,90,200,190,230,45
+OrcSword,Med,26,0.9090909091,2,230,180,20,OrcSword,PROJECTILE -pic Slash -cooldown 70 -speed 3 -range 55 -damageType 1_FIREBALL -pic BigSlash -cooldown 200 -damageType 1,0_-0.2_-0.2_0.1_0_-0.1_-0.1_0_0_-0.2,70,0.7,F1MedEnemy,-:0,0,4,0,2.5,90,200,190,230,45
+OrcArmourSword,Hrd,26,1.3333333333,2,230,250,20,OrcArmourSword,PROJECTILE -pic Slash -cooldown 80 -speed 3 -range 50 -damageType 1_FIREBALL -pic BigSlash -cooldown 200 -damageType 1,0_0_0.3_-0.2_0_-0.1_-0.1_0_0_-0.2,100,0.7,F1HardEnemy,-:0,0.2,4,0.2,1.5,90,200,190,230,45
+FireElemental,Hrd,26,2.2222222222,2,230,220,40,FireElemental,PROJECTILE -pic RedSlimeShot -cooldown 80 -speed 2 -damage 2 -damageType 5_FIREBALL -pic FireballExplosion -cooldown 300 -damage 25 -isSpell True -damageType 5,0_0_0_0.1_0_1_-1_0_-0.2_0.4,100,0.7,F1HardEnemy,-:0,0.2,5,0.2,2,90,200,190,230,80
+Serpent,Boss,30,7.3333333333,2,250,250,110,Serpent,PROJECTILE -pic GreenSlimeShot -cooldown 20 -range 300 -animationTime 10 -speed 3 -damageType 9_MULTISHOT -pic GreenSlimeShot -range 300 -animationTime 20 -cooldown 50 -speed 1 -damageType 9 -shots 10_FIREBALL -pic FireballExplosion -cooldown 200 -animationTime 40 -damage 25 -damageType 5,0_0_0_0_0_0_0_0_0_0,300,1,F1Boss,WaterWalking:0.3,0.7,1,0.5,1.5,300,500,190,230,130
+DEFAULT,10,3,1,100,100,30,NoPic,0_0_0_0_0_0_0_0_0_0,100,1,F1LotsGold,-:0,0,2,90,200,190,230,80,,,,
+DEFAULT,Damage Types,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,0 – UNTYPED,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,1 – SLASH,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,2 – PIERCE,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,3 – BASH,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,4 – ENERGY,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,damAtLv,F2/5-E2*10,5 – FIRE,number,enemyTypes,,,,,,,,,,,,,,,,,,
+DEFAULT,hitsToKill,H2/(E2*20-G2/10),6 – ICE,0,UNKNOWN,,,,,,,,,,,,,,,,,,
+DEFAULT,Swarm,7,7 – LIGHT,1,ANIMAL,,,,,,,,,,,,,,,,,,
+DEFAULT,Esy,30,8 – DARK,2,SLIME,,,,,,,,,,,,,,,,,,
+DEFAULT,Med,40,9 – POISON,3,UNDEAD,,,,,,,,,,,,,,,,,,
+DEFAULT,Hrd,80,4,HUMANOID,,,,,,,,,,,,,,,,,,,
+DEFAULT,5,ELEMENTAL,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,,,,,,,,,,,,,,,,,,,,,

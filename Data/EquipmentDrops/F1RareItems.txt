@@ -1,0 +1,16 @@
+30 CopperDagger
+100 IronDagger
+30 StoneSword
+100 IronSword
+70 TreatedPineBow
+30 HardLeather
+80 StuddedLeather
+40 IronMantle
+70 IronShirt
+30 IronPlatedGloves
+80 IronShodGloves
+30 CopperHelm
+70 IronHelm
+30 LeatherBoots
+80 HardLeatherBoots
+20 RingWaterWalking

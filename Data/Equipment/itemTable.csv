@@ -1,0 +1,71 @@
+NAME,ITEMTYPE,ATTACK,DAMAGETYPE,DEFENSE,RESISTANCES,STUNFACTOR,DAMAGE,COOLDOWN,KNOCKBACK,SPEED,RANGE,MOVESPEED,ICON,SLOTS,MELEE,MULTISLOT,PROJECTILE,BASICATTACK,ABILITY,KEYWORDS,DESCRIPTION,MAXUNITSHIT
+Daggers,,,,,,,,,,,,,,,,,,,,,,
+WoodDagger,weapon,5,1,0,0_0_0_0_0_0_0_0_0_0,1,0.7,20,0.7,20,50,1.1,0_0,0_1,TRUE,FALSE,,melee,None,,Wood Dagger,2
+StoneDagger,weapon,10,1,0,0_0_0_0_0_0_0_0_0_0,1,0.7,20,0.7,20,50,1.1,1_0,0_1,TRUE,FALSE,,melee,None,,Stone Dagger,2
+CopperDagger,weapon,15,1,0,0_0_0_0_0_0_0_0_0_0,1,0.7,20,0.7,20,50,1.1,2_0,0_1,TRUE,FALSE,,melee,None,,Copper Dagger,2
+IronDagger,weapon,20,1,0,0_0_0_0_0_0_0_0_0_0,1,0.7,20,0.7,20,50,1.1,3_0,0_1,TRUE,FALSE,,melee,None,,Iron Dagger,2
+,,,,,,,,,,,,,,,,,,,,,,
+Swords,,,,,,,,,,,,,,,,,,,,,,
+WoodSword,weapon,7,1,3,0_0_0_0_0_0_0_0_0_0,1,1,40,1,30,80,1,0_2,0_1,TRUE,FALSE,,melee,None,,Wood Sword,3
+StoneSword,weapon,14,1,3,0_0_0_0_0_0_0_0_0_0,1,1,40,1,30,80,1,1_2,0_1,TRUE,FALSE,,melee,None,,Stone Sword,3
+IronSword,weapon,20,1,3,0_0_0_0_0_0_0_0_0_0,1,1,40,1,30,80,1,2_2,0_1,TRUE,FALSE,,melee,None,,Iron Sword,3
+,,,,,,,,,,,,,,,,,,,,,,
+Ranged,,,,,,,,,,,,,,,,,,,,,,
+PineBow,weapon,0,2,-5,0_0_0_0_0_0_0_0_0_0,0.5,1,40,1,30,160,1,0_1,0_1,FALSE,TRUE,Arrow,melee,None,,Pine Bow,2
+TreatedPineBow,weapon,5,2,-5,0_0_0_0_0_0_0_0_0_0,0.5,1,40,1,30,160,1,1_1,0_1,FALSE,TRUE,Arrow,melee,None,,Treated Pine Bow,2
+,,,,,,,,,,,,,,,,,,,,,,
+Armour,,,,,,,,,,,,,,,,,,,,,,
+Cloth,armour,0,0,5,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1,0_1,3,FALSE,FALSE,None,None,None,,Cloth Armour,0
+SoftLeather,armour,0,0,8,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1,1_1,3,FALSE,FALSE,None,None,None,,Soft Leather Armour,0
+HardLeather,armour,0,0,11,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1,2_1,3,FALSE,FALSE,None,None,None,,Hard Leather Armour,0
+StuddedLeather,armour,0,0,15,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1,3_1,3,FALSE,FALSE,None,None,None,,Studded Leather Armour,0
+,,,,,,,,,,,,,,,,,,,,,,
+ChainCloak,armour,0,0,15,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,0.95,0_0,3,FALSE,FALSE,None,None,None,,Chain Cloak,0
+IronMantle,armour,0,0,20,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,0.9,0_1,3,FALSE,FALSE,None,None,None,,Iron Mantle,0
+IronShirt,armour,0,0,30,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,0.85,0_2,3,FALSE,FALSE,None,None,None,,Iron Shirt,0
+,,,,,,,,,,,,,,,,,,,,,,
+Gloves,,,,,,,,,,,,,,,,,,,,,,
+LeatherGloves,gloves,0,0,5,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1,0_0,4,FALSE,FALSE,None,None,None,,Leather Gloves,0
+IronPlatedGloves,gloves,0,0,10,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,0.95,1_0,4,FALSE,FALSE,None,None,None,,Iron Plated Gloves,0
+IronShodGloves,gloves,0,0,15,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,0.9,2_0,4,FALSE,FALSE,None,None,None,,Iron Shod Gloves,0
+,,,,,,,,,,,,,,,,,,,,,,
+Helmets,,,,,,,,,,,,,,,,,,,,,,
+Headband,helm,0,0,3,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1.05,0_0,2,FALSE,FALSE,None,None,None,,Headband,0
+FancyHat,helm,0,0,5,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1,1_0,2,FALSE,FALSE,None,None,None,,Fancy Hat,0
+CopperHelm,helm,0,0,11,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,0.95,2_0,2,FALSE,FALSE,None,None,None,,Copper Helmet,0
+IronHelm,helm,0,0,17,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,0.9,3_0,2,FALSE,FALSE,None,None,None,,Iron Helmet,0
+,,,,,,,,,,,,,,,,,,,,,,
+Boots,,,,,,,,,,,,,,,,,,,,,,
+Shoes,boots,0,0,3,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1.15,0_0,5,FALSE,FALSE,None,None,None,,Shoes,0
+Boots,boots,0,0,5,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1,1_0,5,FALSE,FALSE,None,None,None,,Boots,0
+LeatherBoots,boots,0,0,7,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1,2_0,5,FALSE,FALSE,None,None,None,,Leather Boots,0
+HardLeatherBoots,boots,0,0,9,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1,3_0,5,FALSE,FALSE,None,None,None,,Hard Leather Boots,0
+,,,,,,,,,,,,,,,,,,,,,,
+Rings,,,,,,,,,,,,,,,,,,,,,,
+RingWaterWalking,ring,0,0,0,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1,0_0,7_8,FALSE,FALSE,None,None,None,WaterWalking:1,Ring of Water Walking,0
+RingSpeed,ring,0,0,0,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1.25,1_0,7_8,FALSE,FALSE,None,None,None,,Ring of Speed,0
+RingWarrior,ring,10,0,10,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1.1,2_0,7_8,FALSE,FALSE,None,None,None,,Ring of the Warrior,0
+RingShield,ring,0,0,0,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,0,1,0_0,7_8,FALSE,FALSE,None,None,None,Shield:0.3,Ring of Shielding,0
+,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,,0,1,0,0_0_0_0_0_0_0_0_0_0,0,1,,0,0,50,,9_0,0,TRUE,FALSE,Slash,None,None,,Just a quick description,0
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,Material Hierarchy,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,Wood,Cloth,,,,,,,,,,,,,,,,,,
+DEFAULT,,,Stone,Leather,,,,,,,,,,,,,,,,,,
+DEFAULT,,,Copper,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,Iron,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,Steel,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,Silver,Star-Weave,,,,,,,,,,,,,,,,,,
+DEFAULT,,,Mithril,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,Crystal,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,Mithril,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,Admantium,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,,,,,,,,,,,,,,,,,,,,
+DEFAULT,,,,,,,,,,,,,,,,,,,,,,

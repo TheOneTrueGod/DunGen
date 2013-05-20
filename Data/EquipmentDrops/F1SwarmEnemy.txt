@@ -1,0 +1,2 @@
+50 G_F1SmallGold
+50 G_F1CommonItems

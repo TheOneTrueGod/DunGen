@@ -1,0 +1,7 @@
+1 G_F1MedGold
+AND
+1 G_F1LotsGold
+AND
+10 G_F1LotsGold
+10 G_F1RareItems
+10 G_F1EpicItems

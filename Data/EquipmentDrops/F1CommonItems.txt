@@ -1,0 +1,11 @@
+100 WoodDagger
+80 StoneDagger
+100 WoodSword
+70 PineBow
+80 Cloth
+80 ChainCloak
+80 LeatherGloves
+80 Headband
+70 FancyHat
+80 Shoes
+60 Boots

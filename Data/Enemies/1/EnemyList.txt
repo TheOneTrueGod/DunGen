@@ -1,0 +1,14 @@
+#Name	ClimateTypes	AppearChance	Space	IsBoss	Enemies					
+Mummy	2	40	2	1	2,2	Mummy	10,20	Skeleton		
+Skeletons	2	100	1	0	1,2	Skeleton				
+MummyBats	2	40	2	1	2,2	Mummy	15,30	Bat	4,8	Skeleton
+Slime	10	100	1	0	1,2	GreenSlime				
+FireElemental	2	100	2	0	1,2	FireElemental				
+WeakOrcs	120	150	1	0	2,3	Orc				
+MedOrcs	120	100	3	0	2,3	Orc	1,2	OrcArmour	1,2	OrcSword
+StrongOrcs	0	50	3	0	1,2	OrcArmour	1,2	OrcSword	1,2	OrcArmourSword
+SuperOrcs	0	10	3	1	4,6	OrcArmourSword	5,15	Orc	2,4	OrcSword
+Slug	10	100	2	0	1,2	Slug				
+SlugGreenSlimes	10	100	2	0	1,1	Slug	2,3	GreenSlime		
+JustBats	120	50	2	0	8,10	Bat				
+Serpent	10	40	2	1	1,2	Serpent	5,10	GreenSlime	2,3	Slug

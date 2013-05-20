@@ -1,0 +1,5 @@
+500 G_F1SmallGold
+50 Cash100
+AND
+500 G_F1SmallGold
+50 Cash100

@@ -1,0 +1,9 @@
+100 WoodDagger
+80 StoneDagger
+70 BronzeDagger
+60 IronDagger
+70 PineBow
+50 TreatedPineBow
+80 WoodSword
+60 StoneSword
+50 IronSword

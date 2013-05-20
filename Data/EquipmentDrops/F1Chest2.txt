@@ -1,0 +1,7 @@
+1 G_F1LotsGold
+AND
+90 G_F1CommonItems
+10 G_F1EpicItems
+AND
+6 G_F1UncommonItems
+6 G_F1RareItems

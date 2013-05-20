@@ -1,0 +1,4 @@
+1 G_F1SmallGold
+AND
+8 G_F1CommonItems
+2 G_F1UncommonItems

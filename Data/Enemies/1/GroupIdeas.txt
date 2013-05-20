@@ -1,0 +1,22 @@
+Mummy Skeletons
+Mummy Ghosts
+Mummy Ghosts Skeletons
+Mummy Slimes
+
+FireElemental Slimes
+FireElementalx2
+
+GiantSlime (Use the larger slime thing and double its size) GreenSlimes
+GiantSlime (Use the larger slime thing and double its size) BlueSlimes
+GiantSlime (Use the larger slime thing and double its size) RedSlimes
+
+Slug Slug
+Slug Slimes
+
+Baby Dragon (Nothing else)
+
+ArmouredOrc UnarmouredOrcs
+
+Orc Bats
+
+Buggies of varying amounts

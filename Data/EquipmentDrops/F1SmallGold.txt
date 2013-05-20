@@ -1,0 +1,4 @@
+200 Cash10
+100 Cash20
+50 Cash30
+25 Cash50

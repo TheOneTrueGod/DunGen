@@ -1,0 +1,831 @@
+Loading Pygame.
+Pygame Loaded.  Initializing.
+Pygame Initialized.
+Loading Items
+100.0% G_F1MedGold
+. 90.91% G_F1SmallGold
+. . 48.48% Cash10
+. . 24.24% Cash20
+. . 12.12% Cash30
+. . 6.06% Cash50
+. 9.09% Cash100
+  +
+. 90.91% G_F1SmallGold
+. . 48.48% Cash10
+. . 24.24% Cash20
+. . 12.12% Cash30
+. . 6.06% Cash50
+. 9.09% Cash100
+100.0% G_F1AllWeapons
+. 16.13% WoodDagger
+. 12.9% StoneDagger
+. 11.29% BronzeDagger
+. 9.68% IronDagger
+. 11.29% PineBow
+. 8.06% TreatedPineBow
+. 12.9% WoodSword
+. 9.68% StoneSword
+. 8.06% IronSword
+100.0% G_F1MedEnemy
+. 100.0% G_F1SmallGold
+. . 53.33% Cash10
+. . 26.67% Cash20
+. . 13.33% Cash30
+. . 6.67% Cash50
+  +
+. 50.0% G_F1MedGold
+. . 45.45% G_F1SmallGold
+. . . 24.24% Cash10
+. . . 12.12% Cash20
+. . . 6.06% Cash30
+. . . 3.03% Cash50
+. . 4.55% Cash100
+    +
+. . 45.45% G_F1SmallGold
+. . . 24.24% Cash10
+. . . 12.12% Cash20
+. . . 6.06% Cash30
+. . . 3.03% Cash50
+. . 4.55% Cash100
+. 37.5% G_F1UncommonItems
+. . 1.56% StoneDagger
+. . 2.5% CopperDagger
+. . 1.56% WoodSword
+. . 3.13% StoneSword
+. . 1.25% PineBow
+. . 1.88% TreatedPineBow
+. . 1.25% Cloth
+. . 2.19% SoftLeather
+. . 2.5% HardLeather
+. . 1.25% ChainCloak
+. . 2.19% IronMantle
+. . 1.25% LeatherGloves
+. . 1.88% IronPlatedGloves
+. . 1.25% IronShodGloves
+. . 1.25% Headband
+. . 1.56% FancyHat
+. . 2.19% CopperHelm
+. . 1.25% Shoes
+. . 1.56% Boots
+. . 1.88% LeatherBoots
+. . 2.19% HardLeatherBoots
+. 12.5% G_F1RareItems
+. . 0.42% CopperDagger
+. . 1.4% IronDagger
+. . 0.42% StoneSword
+. . 1.4% IronSword
+. . 0.98% TreatedPineBow
+. . 0.42% HardLeather
+. . 1.12% StuddedLeather
+. . 0.56% IronMantle
+. . 0.98% IronShirt
+. . 0.42% IronPlatedGloves
+. . 1.12% IronShodGloves
+. . 0.42% CopperHelm
+. . 0.98% IronHelm
+. . 0.42% LeatherBoots
+. . 1.12% HardLeatherBoots
+. . 0.28% RingWaterWalking
+100.0% G_F1UncommonItems
+. 4.17% StoneDagger
+. 6.67% CopperDagger
+. 4.17% WoodSword
+. 8.33% StoneSword
+. 3.33% PineBow
+. 5.0% TreatedPineBow
+. 3.33% Cloth
+. 5.83% SoftLeather
+. 6.67% HardLeather
+. 3.33% ChainCloak
+. 5.83% IronMantle
+. 3.33% LeatherGloves
+. 5.0% IronPlatedGloves
+. 3.33% IronShodGloves
+. 3.33% Headband
+. 4.17% FancyHat
+. 5.83% CopperHelm
+. 3.33% Shoes
+. 4.17% Boots
+. 5.0% LeatherBoots
+. 5.83% HardLeatherBoots
+100.0% G_F1SwarmEnemy
+. 50.0% G_F1SmallGold
+. . 26.67% Cash10
+. . 13.33% Cash20
+. . 6.67% Cash30
+. . 3.33% Cash50
+. 50.0% G_F1CommonItems
+. . 5.68% WoodDagger
+. . 4.55% StoneDagger
+. . 5.68% WoodSword
+. . 3.98% PineBow
+. . 4.55% Cloth
+. . 4.55% ChainCloak
+. . 4.55% LeatherGloves
+. . 4.55% Headband
+. . 3.98% FancyHat
+. . 4.55% Shoes
+. . 3.41% Boots
+100.0% G_F1Chest2
+. 100.0% G_F1LotsGold
+. . 50.0% G_F1MedGold
+. . . 45.45% G_F1SmallGold
+. . . . 24.24% Cash10
+. . . . 12.12% Cash20
+. . . . 6.06% Cash30
+. . . . 3.03% Cash50
+. . . 4.55% Cash100
+      +
+. . . 45.45% G_F1SmallGold
+. . . . 24.24% Cash10
+. . . . 12.12% Cash20
+. . . . 6.06% Cash30
+. . . . 3.03% Cash50
+. . . 4.55% Cash100
+. . 50.0% G_F1SmallGold
+. . . 26.67% Cash10
+. . . 13.33% Cash20
+. . . 6.67% Cash30
+. . . 3.33% Cash50
+    +
+. . 55.56% G_F1MedGold
+. . . 50.51% G_F1SmallGold
+. . . . 26.94% Cash10
+. . . . 13.47% Cash20
+. . . . 6.73% Cash30
+. . . . 3.37% Cash50
+. . . 5.05% Cash100
+      +
+. . . 50.51% G_F1SmallGold
+. . . . 26.94% Cash10
+. . . . 13.47% Cash20
+. . . . 6.73% Cash30
+. . . . 3.37% Cash50
+. . . 5.05% Cash100
+. . 44.44% G_F1SmallGold
+. . . 23.7% Cash10
+. . . 11.85% Cash20
+. . . 5.93% Cash30
+. . . 2.96% Cash50
+    +
+. . 60.0% G_F1MedGold
+. . . 54.55% G_F1SmallGold
+. . . . 29.09% Cash10
+. . . . 14.55% Cash20
+. . . . 7.27% Cash30
+. . . . 3.64% Cash50
+. . . 5.45% Cash100
+      +
+. . . 54.55% G_F1SmallGold
+. . . . 29.09% Cash10
+. . . . 14.55% Cash20
+. . . . 7.27% Cash30
+. . . . 3.64% Cash50
+. . . 5.45% Cash100
+. . 40.0% G_F1SmallGold
+. . . 21.33% Cash10
+. . . 10.67% Cash20
+. . . 5.33% Cash30
+. . . 2.67% Cash50
+  +
+. 100.0% G_F1Chest1
+. . 100.0% G_F1MedGold
+. . . 90.91% G_F1SmallGold
+. . . . 48.48% Cash10
+. . . . 24.24% Cash20
+. . . . 12.12% Cash30
+. . . . 6.06% Cash50
+. . . 9.09% Cash100
+      +
+. . . 90.91% G_F1SmallGold
+. . . . 48.48% Cash10
+. . . . 24.24% Cash20
+. . . . 12.12% Cash30
+. . . . 6.06% Cash50
+. . . 9.09% Cash100
+    +
+. . 20.0% G_F1MedGold
+. . . 18.18% G_F1SmallGold
+. . . . 9.7% Cash10
+. . . . 4.85% Cash20
+. . . . 2.42% Cash30
+. . . . 1.21% Cash50
+. . . 1.82% Cash100
+      +
+. . . 18.18% G_F1SmallGold
+. . . . 9.7% Cash10
+. . . . 4.85% Cash20
+. . . . 2.42% Cash30
+. . . . 1.21% Cash50
+. . . 1.82% Cash100
+. . 40.0% G_F1AllWeapons
+. . . 6.45% WoodDagger
+. . . 5.16% StoneDagger
+. . . 4.52% BronzeDagger
+. . . 3.87% IronDagger
+. . . 4.52% PineBow
+. . . 3.23% TreatedPineBow
+. . . 5.16% WoodSword
+. . . 3.87% StoneSword
+. . . 3.23% IronSword
+. . 40.0% G_F1AllArmour
+. . . 3.74% Cloth
+. . . 3.74% Shoes
+. . . 2.99% SoftLeather
+. . . 2.99% Boots
+. . . 2.24% HardLeather
+. . . 2.24% LeatherBoots
+. . . 1.87% StuddedLeather
+. . . 1.87% HardLeatherBoots
+. . . 2.99% ChainCloak
+. . . 2.24% IronMantle
+. . . 1.5% IronShirt
+. . . 3.74% Headband
+. . . 3.36% FancyHat
+. . . 2.62% CopperHelm
+. . . 1.87% IronHelm
+  +
+. 50.0% G_F1AllWeapons
+. . 8.06% WoodDagger
+. . 6.45% StoneDagger
+. . 5.65% BronzeDagger
+. . 4.84% IronDagger
+. . 5.65% PineBow
+. . 4.03% TreatedPineBow
+. . 6.45% WoodSword
+. . 4.84% StoneSword
+. . 4.03% IronSword
+. 50.0% G_F1AllArmour
+. . 4.67% Cloth
+. . 4.67% Shoes
+. . 3.74% SoftLeather
+. . 3.74% Boots
+. . 2.8% HardLeather
+. . 2.8% LeatherBoots
+. . 2.34% StuddedLeather
+. . 2.34% HardLeatherBoots
+. . 3.74% ChainCloak
+. . 2.8% IronMantle
+. . 1.87% IronShirt
+. . 4.67% Headband
+. . 4.21% FancyHat
+. . 3.27% CopperHelm
+. . 2.34% IronHelm
+100.0% G_F1Chest0
+. 100.0% G_F1SmallGold
+. . 53.33% Cash10
+. . 26.67% Cash20
+. . 13.33% Cash30
+. . 6.67% Cash50
+  +
+. 50.0% G_F1MedGold
+. . 45.45% G_F1SmallGold
+. . . 24.24% Cash10
+. . . 12.12% Cash20
+. . . 6.06% Cash30
+. . . 3.03% Cash50
+. . 4.55% Cash100
+    +
+. . 45.45% G_F1SmallGold
+. . . 24.24% Cash10
+. . . 12.12% Cash20
+. . . 6.06% Cash30
+. . . 3.03% Cash50
+. . 4.55% Cash100
+. 25.0% G_F1AllWeapons
+. . 4.03% WoodDagger
+. . 3.23% StoneDagger
+. . 2.82% BronzeDagger
+. . 2.42% IronDagger
+. . 2.82% PineBow
+. . 2.02% TreatedPineBow
+. . 3.23% WoodSword
+. . 2.42% StoneSword
+. . 2.02% IronSword
+. 25.0% G_F1AllArmour
+. . 2.34% Cloth
+. . 2.34% Shoes
+. . 1.87% SoftLeather
+. . 1.87% Boots
+. . 1.4% HardLeather
+. . 1.4% LeatherBoots
+. . 1.17% StuddedLeather
+. . 1.17% HardLeatherBoots
+. . 1.87% ChainCloak
+. . 1.4% IronMantle
+. . 0.93% IronShirt
+. . 2.34% Headband
+. . 2.1% FancyHat
+. . 1.64% CopperHelm
+. . 1.17% IronHelm
+100.0% G_F1Chest1
+. 100.0% G_F1MedGold
+. . 90.91% G_F1SmallGold
+. . . 48.48% Cash10
+. . . 24.24% Cash20
+. . . 12.12% Cash30
+. . . 6.06% Cash50
+. . 9.09% Cash100
+    +
+. . 90.91% G_F1SmallGold
+. . . 48.48% Cash10
+. . . 24.24% Cash20
+. . . 12.12% Cash30
+. . . 6.06% Cash50
+. . 9.09% Cash100
+  +
+. 20.0% G_F1MedGold
+. . 18.18% G_F1SmallGold
+. . . 9.7% Cash10
+. . . 4.85% Cash20
+. . . 2.42% Cash30
+. . . 1.21% Cash50
+. . 1.82% Cash100
+    +
+. . 18.18% G_F1SmallGold
+. . . 9.7% Cash10
+. . . 4.85% Cash20
+. . . 2.42% Cash30
+. . . 1.21% Cash50
+. . 1.82% Cash100
+. 40.0% G_F1AllWeapons
+. . 6.45% WoodDagger
+. . 5.16% StoneDagger
+. . 4.52% BronzeDagger
+. . 3.87% IronDagger
+. . 4.52% PineBow
+. . 3.23% TreatedPineBow
+. . 5.16% WoodSword
+. . 3.87% StoneSword
+. . 3.23% IronSword
+. 40.0% G_F1AllArmour
+. . 3.74% Cloth
+. . 3.74% Shoes
+. . 2.99% SoftLeather
+. . 2.99% Boots
+. . 2.24% HardLeather
+. . 2.24% LeatherBoots
+. . 1.87% StuddedLeather
+. . 1.87% HardLeatherBoots
+. . 2.99% ChainCloak
+. . 2.24% IronMantle
+. . 1.5% IronShirt
+. . 3.74% Headband
+. . 3.36% FancyHat
+. . 2.62% CopperHelm
+. . 1.87% IronHelm
+100.0% G_F1CommonItems
+. 11.36% WoodDagger
+. 9.09% StoneDagger
+. 11.36% WoodSword
+. 7.95% PineBow
+. 9.09% Cloth
+. 9.09% ChainCloak
+. 9.09% LeatherGloves
+. 9.09% Headband
+. 7.95% FancyHat
+. 9.09% Shoes
+. 6.82% Boots
+100.0% G_F1HardEnemy
+. 100.0% G_F1MedGold
+. . 90.91% G_F1SmallGold
+. . . 48.48% Cash10
+. . . 24.24% Cash20
+. . . 12.12% Cash30
+. . . 6.06% Cash50
+. . 9.09% Cash100
+    +
+. . 90.91% G_F1SmallGold
+. . . 48.48% Cash10
+. . . 24.24% Cash20
+. . . 12.12% Cash30
+. . . 6.06% Cash50
+. . 9.09% Cash100
+  +
+. 30.0% G_F1LotsGold
+. . 15.0% G_F1MedGold
+. . . 13.64% G_F1SmallGold
+. . . . 7.27% Cash10
+. . . . 3.64% Cash20
+. . . . 1.82% Cash30
+. . . . 0.91% Cash50
+. . . 1.36% Cash100
+      +
+. . . 13.64% G_F1SmallGold
+. . . . 7.27% Cash10
+. . . . 3.64% Cash20
+. . . . 1.82% Cash30
+. . . . 0.91% Cash50
+. . . 1.36% Cash100
+. . 15.0% G_F1SmallGold
+. . . 8.0% Cash10
+. . . 4.0% Cash20
+. . . 2.0% Cash30
+. . . 1.0% Cash50
+    +
+. . 16.67% G_F1MedGold
+. . . 15.15% G_F1SmallGold
+. . . . 8.08% Cash10
+. . . . 4.04% Cash20
+. . . . 2.02% Cash30
+. . . . 1.01% Cash50
+. . . 1.52% Cash100
+      +
+. . . 15.15% G_F1SmallGold
+. . . . 8.08% Cash10
+. . . . 4.04% Cash20
+. . . . 2.02% Cash30
+. . . . 1.01% Cash50
+. . . 1.52% Cash100
+. . 13.33% G_F1SmallGold
+. . . 7.11% Cash10
+. . . 3.56% Cash20
+. . . 1.78% Cash30
+. . . 0.89% Cash50
+    +
+. . 18.0% G_F1MedGold
+. . . 16.36% G_F1SmallGold
+. . . . 8.73% Cash10
+. . . . 4.36% Cash20
+. . . . 2.18% Cash30
+. . . . 1.09% Cash50
+. . . 1.64% Cash100
+      +
+. . . 16.36% G_F1SmallGold
+. . . . 8.73% Cash10
+. . . . 4.36% Cash20
+. . . . 2.18% Cash30
+. . . . 1.09% Cash50
+. . . 1.64% Cash100
+. . 12.0% G_F1SmallGold
+. . . 6.4% Cash10
+. . . 3.2% Cash20
+. . . 1.6% Cash30
+. . . 0.8% Cash50
+. 40.0% G_F1RareItems
+. . 1.35% CopperDagger
+. . 4.49% IronDagger
+. . 1.35% StoneSword
+. . 4.49% IronSword
+. . 3.15% TreatedPineBow
+. . 1.35% HardLeather
+. . 3.6% StuddedLeather
+. . 1.8% IronMantle
+. . 3.15% IronShirt
+. . 1.35% IronPlatedGloves
+. . 3.6% IronShodGloves
+. . 1.35% CopperHelm
+. . 3.15% IronHelm
+. . 1.35% LeatherBoots
+. . 3.6% HardLeatherBoots
+. . 0.9% RingWaterWalking
+. 30.0% G_F1UncommonItems
+. . 1.25% StoneDagger
+. . 2.0% CopperDagger
+. . 1.25% WoodSword
+. . 2.5% StoneSword
+. . 1.0% PineBow
+. . 1.5% TreatedPineBow
+. . 1.0% Cloth
+. . 1.75% SoftLeather
+. . 2.0% HardLeather
+. . 1.0% ChainCloak
+. . 1.75% IronMantle
+. . 1.0% LeatherGloves
+. . 1.5% IronPlatedGloves
+. . 1.0% IronShodGloves
+. . 1.0% Headband
+. . 1.25% FancyHat
+. . 1.75% CopperHelm
+. . 1.0% Shoes
+. . 1.25% Boots
+. . 1.5% LeatherBoots
+. . 1.75% HardLeatherBoots
+100.0% G_F1EpicItems
+. 33.33% RingWaterWalking
+. 33.33% RingSpeed
+. 33.33% RingWarrior
+100.0% G_F1RareItems
+. 3.37% CopperDagger
+. 11.24% IronDagger
+. 3.37% StoneSword
+. 11.24% IronSword
+. 7.87% TreatedPineBow
+. 3.37% HardLeather
+. 8.99% StuddedLeather
+. 4.49% IronMantle
+. 7.87% IronShirt
+. 3.37% IronPlatedGloves
+. 8.99% IronShodGloves
+. 3.37% CopperHelm
+. 7.87% IronHelm
+. 3.37% LeatherBoots
+. 8.99% HardLeatherBoots
+. 2.25% RingWaterWalking
+100.0% G_F1AllItems
+. 50.0% G_F1AllArmour
+. . 4.67% Cloth
+. . 4.67% Shoes
+. . 3.74% SoftLeather
+. . 3.74% Boots
+. . 2.8% HardLeather
+. . 2.8% LeatherBoots
+. . 2.34% StuddedLeather
+. . 2.34% HardLeatherBoots
+. . 3.74% ChainCloak
+. . 2.8% IronMantle
+. . 1.87% IronShirt
+. . 4.67% Headband
+. . 4.21% FancyHat
+. . 3.27% CopperHelm
+. . 2.34% IronHelm
+. 50.0% G_F1AllWeapons
+. . 8.06% WoodDagger
+. . 6.45% StoneDagger
+. . 5.65% BronzeDagger
+. . 4.84% IronDagger
+. . 5.65% PineBow
+. . 4.03% TreatedPineBow
+. . 6.45% WoodSword
+. . 4.84% StoneSword
+. . 4.03% IronSword
+100.0% G_F1AllArmour
+. 9.35% Cloth
+. 9.35% Shoes
+. 7.48% SoftLeather
+. 7.48% Boots
+. 5.61% HardLeather
+. 5.61% LeatherBoots
+. 4.67% StuddedLeather
+. 4.67% HardLeatherBoots
+. 7.48% ChainCloak
+. 5.61% IronMantle
+. 3.74% IronShirt
+. 9.35% Headband
+. 8.41% FancyHat
+. 6.54% CopperHelm
+. 4.67% IronHelm
+100.0% G_F1SmallGold
+. 53.33% Cash10
+. 26.67% Cash20
+. 13.33% Cash30
+. 6.67% Cash50
+100.0% G_F1EasyEnemy
+. 50.0% G_F1SmallGold
+. . 26.67% Cash10
+. . 13.33% Cash20
+. . 6.67% Cash30
+. . 3.33% Cash50
+. 25.0% G_F1CommonItems
+. . 2.84% WoodDagger
+. . 2.27% StoneDagger
+. . 2.84% WoodSword
+. . 1.99% PineBow
+. . 2.27% Cloth
+. . 2.27% ChainCloak
+. . 2.27% LeatherGloves
+. . 2.27% Headband
+. . 1.99% FancyHat
+. . 2.27% Shoes
+. . 1.7% Boots
+. 25.0% G_F1UncommonItems
+. . 1.04% StoneDagger
+. . 1.67% CopperDagger
+. . 1.04% WoodSword
+. . 2.08% StoneSword
+. . 0.83% PineBow
+. . 1.25% TreatedPineBow
+. . 0.83% Cloth
+. . 1.46% SoftLeather
+. . 1.67% HardLeather
+. . 0.83% ChainCloak
+. . 1.46% IronMantle
+. . 0.83% LeatherGloves
+. . 1.25% IronPlatedGloves
+. . 0.83% IronShodGloves
+. . 0.83% Headband
+. . 1.04% FancyHat
+. . 1.46% CopperHelm
+. . 0.83% Shoes
+. . 1.04% Boots
+. . 1.25% LeatherBoots
+. . 1.46% HardLeatherBoots
+100.0% G_F1LotsGold
+. 50.0% G_F1MedGold
+. . 45.45% G_F1SmallGold
+. . . 24.24% Cash10
+. . . 12.12% Cash20
+. . . 6.06% Cash30
+. . . 3.03% Cash50
+. . 4.55% Cash100
+    +
+. . 45.45% G_F1SmallGold
+. . . 24.24% Cash10
+. . . 12.12% Cash20
+. . . 6.06% Cash30
+. . . 3.03% Cash50
+. . 4.55% Cash100
+. 50.0% G_F1SmallGold
+. . 26.67% Cash10
+. . 13.33% Cash20
+. . 6.67% Cash30
+. . 3.33% Cash50
+  +
+. 55.56% G_F1MedGold
+. . 50.51% G_F1SmallGold
+. . . 26.94% Cash10
+. . . 13.47% Cash20
+. . . 6.73% Cash30
+. . . 3.37% Cash50
+. . 5.05% Cash100
+    +
+. . 50.51% G_F1SmallGold
+. . . 26.94% Cash10
+. . . 13.47% Cash20
+. . . 6.73% Cash30
+. . . 3.37% Cash50
+. . 5.05% Cash100
+. 44.44% G_F1SmallGold
+. . 23.7% Cash10
+. . 11.85% Cash20
+. . 5.93% Cash30
+. . 2.96% Cash50
+  +
+. 60.0% G_F1MedGold
+. . 54.55% G_F1SmallGold
+. . . 29.09% Cash10
+. . . 14.55% Cash20
+. . . 7.27% Cash30
+. . . 3.64% Cash50
+. . 5.45% Cash100
+    +
+. . 54.55% G_F1SmallGold
+. . . 29.09% Cash10
+. . . 14.55% Cash20
+. . . 7.27% Cash30
+. . . 3.64% Cash50
+. . 5.45% Cash100
+. 40.0% G_F1SmallGold
+. . 21.33% Cash10
+. . 10.67% Cash20
+. . 5.33% Cash30
+. . 2.67% Cash50
+100.0% G_F1Boss
+. 100.0% G_F1MedGold
+. . 90.91% G_F1SmallGold
+. . . 48.48% Cash10
+. . . 24.24% Cash20
+. . . 12.12% Cash30
+. . . 6.06% Cash50
+. . 9.09% Cash100
+    +
+. . 90.91% G_F1SmallGold
+. . . 48.48% Cash10
+. . . 24.24% Cash20
+. . . 12.12% Cash30
+. . . 6.06% Cash50
+. . 9.09% Cash100
+  +
+. 100.0% G_F1LotsGold
+. . 50.0% G_F1MedGold
+. . . 45.45% G_F1SmallGold
+. . . . 24.24% Cash10
+. . . . 12.12% Cash20
+. . . . 6.06% Cash30
+. . . . 3.03% Cash50
+. . . 4.55% Cash100
+      +
+. . . 45.45% G_F1SmallGold
+. . . . 24.24% Cash10
+. . . . 12.12% Cash20
+. . . . 6.06% Cash30
+. . . . 3.03% Cash50
+. . . 4.55% Cash100
+. . 50.0% G_F1SmallGold
+. . . 26.67% Cash10
+. . . 13.33% Cash20
+. . . 6.67% Cash30
+. . . 3.33% Cash50
+    +
+. . 55.56% G_F1MedGold
+. . . 50.51% G_F1SmallGold
+. . . . 26.94% Cash10
+. . . . 13.47% Cash20
+. . . . 6.73% Cash30
+. . . . 3.37% Cash50
+. . . 5.05% Cash100
+      +
+. . . 50.51% G_F1SmallGold
+. . . . 26.94% Cash10
+. . . . 13.47% Cash20
+. . . . 6.73% Cash30
+. . . . 3.37% Cash50
+. . . 5.05% Cash100
+. . 44.44% G_F1SmallGold
+. . . 23.7% Cash10
+. . . 11.85% Cash20
+. . . 5.93% Cash30
+. . . 2.96% Cash50
+    +
+. . 60.0% G_F1MedGold
+. . . 54.55% G_F1SmallGold
+. . . . 29.09% Cash10
+. . . . 14.55% Cash20
+. . . . 7.27% Cash30
+. . . . 3.64% Cash50
+. . . 5.45% Cash100
+      +
+. . . 54.55% G_F1SmallGold
+. . . . 29.09% Cash10
+. . . . 14.55% Cash20
+. . . . 7.27% Cash30
+. . . . 3.64% Cash50
+. . . 5.45% Cash100
+. . 40.0% G_F1SmallGold
+. . . 21.33% Cash10
+. . . 10.67% Cash20
+. . . 5.33% Cash30
+. . . 2.67% Cash50
+  +
+. 33.33% G_F1LotsGold
+. . 16.67% G_F1MedGold
+. . . 15.15% G_F1SmallGold
+. . . . 8.08% Cash10
+. . . . 4.04% Cash20
+. . . . 2.02% Cash30
+. . . . 1.01% Cash50
+. . . 1.52% Cash100
+      +
+. . . 15.15% G_F1SmallGold
+. . . . 8.08% Cash10
+. . . . 4.04% Cash20
+. . . . 2.02% Cash30
+. . . . 1.01% Cash50
+. . . 1.52% Cash100
+. . 16.67% G_F1SmallGold
+. . . 8.89% Cash10
+. . . 4.44% Cash20
+. . . 2.22% Cash30
+. . . 1.11% Cash50
+    +
+. . 18.52% G_F1MedGold
+. . . 16.84% G_F1SmallGold
+. . . . 8.98% Cash10
+. . . . 4.49% Cash20
+. . . . 2.24% Cash30
+. . . . 1.12% Cash50
+. . . 1.68% Cash100
+      +
+. . . 16.84% G_F1SmallGold
+. . . . 8.98% Cash10
+. . . . 4.49% Cash20
+. . . . 2.24% Cash30
+. . . . 1.12% Cash50
+. . . 1.68% Cash100
+. . 14.81% G_F1SmallGold
+. . . 7.9% Cash10
+. . . 3.95% Cash20
+. . . 1.98% Cash30
+. . . 0.99% Cash50
+    +
+. . 20.0% G_F1MedGold
+. . . 18.18% G_F1SmallGold
+. . . . 9.7% Cash10
+. . . . 4.85% Cash20
+. . . . 2.42% Cash30
+. . . . 1.21% Cash50
+. . . 1.82% Cash100
+      +
+. . . 18.18% G_F1SmallGold
+. . . . 9.7% Cash10
+. . . . 4.85% Cash20
+. . . . 2.42% Cash30
+. . . . 1.21% Cash50
+. . . 1.82% Cash100
+. . 13.33% G_F1SmallGold
+. . . 7.11% Cash10
+. . . 3.56% Cash20
+. . . 1.78% Cash30
+. . . 0.89% Cash50
+. 33.33% G_F1RareItems
+. . 1.12% CopperDagger
+. . 3.75% IronDagger
+. . 1.12% StoneSword
+. . 3.75% IronSword
+. . 2.62% TreatedPineBow
+. . 1.12% HardLeather
+. . 3.0% StuddedLeather
+. . 1.5% IronMantle
+. . 2.62% IronShirt
+. . 1.12% IronPlatedGloves
+. . 3.0% IronShodGloves
+. . 1.12% CopperHelm
+. . 2.62% IronHelm
+. . 1.12% LeatherBoots
+. . 3.0% HardLeatherBoots
+. . 0.75% RingWaterWalking
+. 33.33% G_F1EpicItems
+. . 11.11% RingWaterWalking
+. . 11.11% RingSpeed
+. . 11.11% RingWarrior
+Loading Enemies
